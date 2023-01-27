@@ -1,0 +1,36 @@
+EffectDef {
+ Emitors {
+  EmitorDef smoke {
+   ShapeType Sphere
+   ConeAngle 360 0 20
+   MaxNum 150
+   BirthRate 12
+   Offset 0 0.1 0
+   Material "{735D641EB0FC5209}system/wbdata/particleeditor/defaultmaterial.emat"
+   ScaleX 1
+   SizeMultiplier 5
+   SizeRND 1
+   StretchMultiplier 0
+   RandomAngle 0
+   Velocity 2
+   VelocityRND 0.5
+   GravityMultiply 0
+   Spring 0
+   Wind 1
+   LifeTime 10
+   LifeTimeRND 0
+   Color {
+    0 0 0 0 0.2486 0 0 0 1 0.2658 0.2722 0.2532
+   }
+   Alpha {
+    0 0 0.01705 0.05696 0.07955 0.06329 1 0
+   }
+   RotationSpeed {
+    0 0 1 1
+   }
+   Size {
+    0 0.02532 0.18892 0.70886 1 1
+   }
+  }
+ }
+}

@@ -1,9 +1,7 @@
 #define _ARMA_
 
-class CfgPatches
-{
-	class RF_SMOKES
-	{
+class CfgPatches {
+	class RF_SMOKES {
 		author = "Dad Fedor & romabeorn";
 		name = "RF_SMOKES";
 		url = "https://discord.gg/d9kP7ezX3n";
@@ -13,8 +11,7 @@ class CfgPatches
 		requiredVersion = 0.1;
 	};
 
-    class DZ_Gear_Camping
-    {
+    class DZ_Gear_Camping {
         units[] = {};
         weapons[] = {};
         requiredVersion = 0.1;
@@ -22,28 +19,18 @@ class CfgPatches
     };
 };
 
-class CfgMods
-{
-	class RF_SMOKES
-	{
+class CfgMods {
+	class RF_SMOKES {
 		type="mod";
 		dir="RF_SMOKES";
-		class defs
-		{
-			class gameScriptModule
-			{
+		class defs {
+			class gameScriptModule {
 				value = "";
 				files[] = { "RF_SMOKES/scripts/3_Game" };
 			};
-			class worldScriptModule
-			{
+			class worldScriptModule {
 				value = "";
 				files[] = { "RF_SMOKES/scripts/4_World" };
-			};
-			class missionScriptModule
-			{
-				value = "";
-				files[] = { "RF_SMOKES/scripts/5_Mission" };
 			};
 		};
 	};
