@@ -17,46 +17,46 @@ class CfgVehicles {
 
 // Blue
 
-    class RF_SMOKES_SMOKE_BLUE_V1: RF_SMOKES_SMOKE_BASE {
+    class RF_SMOKES_REGULAR_BLUE_V1: RF_SMOKES_SMOKE_BASE {
         scope = 2;
     };
-    class RF_SMOKES_SMOKE_BLUE_V2: RF_SMOKES_SMOKE_BASE {
+    class RF_SMOKES_REGULAR_BLUE_V2: RF_SMOKES_SMOKE_BASE {
         scope = 2;
     };
 
 // Black
 
-    class RF_SMOKES_SMOKE_BLACK_V1: RF_SMOKES_SMOKE_BASE {
+    class RF_SMOKES_REGULAR_BLACK_V1: RF_SMOKES_SMOKE_BASE {
         scope = 2;
     };
-    class RF_SMOKES_SMOKE_BLACK_V2: RF_SMOKES_SMOKE_BASE {
+    class RF_SMOKES_REGULAR_BLACK_V2: RF_SMOKES_SMOKE_BASE {
         scope = 2;
     };
 
 // Green
 
-    class RF_SMOKES_SMOKE_GREEN_V1: RF_SMOKES_SMOKE_BASE {
+    class RF_SMOKES_REGULAR_GREEN_V1: RF_SMOKES_SMOKE_BASE {
         scope = 2;
     };
-    class RF_SMOKES_SMOKE_GREEN_V2: RF_SMOKES_SMOKE_BASE {
+    class RF_SMOKES_REGULAR_GREEN_V2: RF_SMOKES_SMOKE_BASE {
         scope = 2;
     };
 
 // Yellow
 
-    class RF_SMOKES_SMOKE_YELLOW_V1: RF_SMOKES_SMOKE_BASE {
+    class RF_SMOKES_REGULAR_YELLOW_V1: RF_SMOKES_SMOKE_BASE {
         scope = 2;
     };
-    class RF_SMOKES_SMOKE_YELLOW_V2: RF_SMOKES_SMOKE_BASE {
+    class RF_SMOKES_REGULAR_YELLOW_V2: RF_SMOKES_SMOKE_BASE {
         scope = 2;
     };
 
 // Red
 
-    class RF_SMOKES_SMOKE_RED_V1: RF_SMOKES_SMOKE_BASE {
+    class RF_SMOKES_REGULAR_RED_V1: RF_SMOKES_SMOKE_BASE {
         scope = 2;
     };
-    class RF_SMOKES_SMOKE_RED_V2: RF_SMOKES_SMOKE_BASE {
+    class RF_SMOKES_REGULAR_RED_V2: RF_SMOKES_SMOKE_BASE {
         scope = 2;
     };
 };
