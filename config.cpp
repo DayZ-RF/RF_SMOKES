@@ -23,14 +23,29 @@ class CfgMods {
 	class RF_SMOKES {
 		type="mod";
 		dir="RF_SMOKES";
+		defines[]= {
+			"RF_SMOKES"
+		};
 		class defs {
 			class gameScriptModule {
 				value = "";
-				files[] = { "RF_SMOKES/scripts/3_Game" };
+				files[] = { 
+					"RF_SMOKES/common",
+					"RF_SMOKES/scripts/3_Game"
+				};
 			};
 			class worldScriptModule {
 				value = "";
-				files[] = { "RF_SMOKES/scripts/4_World" };
+				files[] = { 
+					"RF_SMOKES/common",
+					"RF_SMOKES/scripts/4_World"
+				};
+			};
+			class missionScriptModule {
+				value = "";
+				files[] = { 
+					"RF_SMOKES/common", 
+				};
 			};
 		};
 	};
