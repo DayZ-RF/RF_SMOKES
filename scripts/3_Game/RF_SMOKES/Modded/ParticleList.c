@@ -17,4 +17,7 @@ modded class ParticleList {
     static const int RF_SMOKES_REGULAR_RED_V1 = RegisterParticle("RF_SMOKES/smokes/data/red/", "red1");
     static const int RF_SMOKES_REGULAR_RED_V2 = RegisterParticle("RF_SMOKES/smokes/data/red/", "red2");
 
+	// MARK: - Steam
+
+    static const int RF_SMOKES_CUP_STEAM = RegisterParticle("RF_SMOKES/steam/data/", "cupSteam");
 }

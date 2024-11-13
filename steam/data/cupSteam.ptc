@@ -1,0 +1,46 @@
+EffectDef {
+ Emitors {
+  EmitorDef emitor1 {
+   ShapeType Point
+   MaxNum 50
+   BirthRate 5
+   Material "{735D641EB0FC5209}system/wbdata/particleeditor/defaultmaterial.emat"
+   CenterX 0
+   CenterY -0.061
+   ScaleX 1
+   SizeMultiplier 0.15
+   RandomRotDir 0
+   RotMultiplier 0
+   VelAngle 0
+   RandomAngle 1
+   Velocity 0.02
+   Wind 0
+   LifeTime 10
+   Color {
+    0 0.5 0.5 0.5 1 0.5 0.5 0.5
+   }
+   Alpha {
+    0 0 0.11932 0.01266 1 0
+   }
+   RotationSpeed {
+    0 1 1 1
+   }
+   Size {
+    0 0.44304 1 0.29747
+   }
+   EffectTime 10
+   AlphaMast {
+    0 1 1 1
+   }
+   SizeMast {
+    0 1 1 1
+   }
+   BRateMast {
+    0 1 1 1
+   }
+   VelocityMast {
+    0 1 1 1
+   }
+  }
+ }
+}
